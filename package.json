@@ -1,7 +1,7 @@
 {
-  "name": "next-pwa-boilerplate",
+  "name": "pwa-styled",
   "version": "1.2.0",
-  "description": "Start your progressive web app off with a perfect Google Lighthouse score.",
+  "description": "Inspired by the great https://github.com/pingboard/next-pwa-boilerplate",
   "main": "server/index.js",
   "scripts": {
     "build": "next build",
@@ -11,12 +11,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pingboard/next-pwa-boilerplate.git"
+    "url": "git+https://github.com/jayfallon/pwa-styled.git"
   },
-  "author": "James Y Rauhut <james@seejamescode.com> (https://seejamescode.com/)",
+  "author": "James C Fallon <jayfallon@gmail.com> (https://jayfallon.net/)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pingboard/next-pwa-boilerplate/issues"
+    "url": "https://github.com/jayfallon/pwa-styled/issues"
   },
   "homepage": "https://next-pwa-boilerplate.now.sh",
   "dependencies": {
@@ -24,6 +24,7 @@
     "isomorphic-unfetch": "^3.0.0",
     "next": "^8.1.0",
     "next-offline": "^3.4.0",
+    "nprogress": "^0.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
